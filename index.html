@@ -19,18 +19,19 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <!-- ══ MOBILE COVER ══ -->
     <div id="mobile-cover">
       <div class="cover-top-text">
         <div class="twof">The Wedding Of</div>
         <div class="cnames" id="cover-names"></div>
-        <div class="cdate"  id="cover-date"></div>
+        <div class="cdate" id="cover-date"></div>
       </div>
       <div class="cover-bottom">
         <div class="dear">Dear:</div>
         <div class="gname guest-name-placeholder">Tamu Undangan</div>
-        <button class="btn-open" onclick="openInvitation()">✉ Buka Undangan</button>
+        <button class="btn-open" onclick="openInvitation()">
+          ✉ Buka Undangan
+        </button>
       </div>
     </div>
 
@@ -47,7 +48,6 @@
 
     <!-- ══ KONTEN UTAMA (scroll kanan) ══ -->
     <div id="right-content">
-
       <!-- AYAT -->
       <section id="ayat">
         <div class="sec-bg" id="bg-ayat"></div>
@@ -63,8 +63,8 @@
             "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
             pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
             dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
-            kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat
-            tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+            kasih dan sayang. Sungguh, pada yang demikian itu benar-benar
+            terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
           </p>
           <p class="qref fade-in">(QS Ar-Rum 21)</p>
         </div>
@@ -80,10 +80,17 @@
           <div class="pdesc" id="bride-pdesc"></div>
           <div class="pparents" id="bride-parents"></div>
           <a id="bride-ig" href="#" class="btn-ig">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="2" y="2" width="20" height="20" rx="5"/>
-              <circle cx="12" cy="12" r="4"/>
-              <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none"/>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none" />
             </svg>
             Instagram
           </a>
@@ -100,10 +107,17 @@
           <div class="pdesc" id="groom-pdesc"></div>
           <div class="pparents" id="groom-parents"></div>
           <a id="groom-ig" href="#" class="btn-ig">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="2" y="2" width="20" height="20" rx="5"/>
-              <circle cx="12" cy="12" r="4"/>
-              <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none"/>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none" />
             </svg>
             Instagram
           </a>
@@ -116,23 +130,41 @@
         <div class="sec-overlay"></div>
         <div class="sec-body">
           <div class="countdown-bar fade-in">
-            <div class="cd-box"><span class="cd-num" id="cd-days">0</span><span class="cd-lbl">Hari</span></div>
-            <div class="cd-box"><span class="cd-num" id="cd-hours">0</span><span class="cd-lbl">Jam</span></div>
-            <div class="cd-box"><span class="cd-num" id="cd-mins">0</span><span class="cd-lbl">Menit</span></div>
-            <div class="cd-box"><span class="cd-num" id="cd-secs">0</span><span class="cd-lbl">Detik</span></div>
+            <div class="cd-box">
+              <span class="cd-num" id="cd-days">0</span
+              ><span class="cd-lbl">Hari</span>
+            </div>
+            <div class="cd-box">
+              <span class="cd-num" id="cd-hours">0</span
+              ><span class="cd-lbl">Jam</span>
+            </div>
+            <div class="cd-box">
+              <span class="cd-num" id="cd-mins">0</span
+              ><span class="cd-lbl">Menit</span>
+            </div>
+            <div class="cd-box">
+              <span class="cd-num" id="cd-secs">0</span
+              ><span class="cd-lbl">Detik</span>
+            </div>
           </div>
-          <button class="btn-cal fade-in" id="btn-cal">📅 Simpan di Kalender</button>
+          <button class="btn-cal fade-in" id="btn-cal">
+            📅 Simpan di Kalender
+          </button>
           <div class="sec-title fade-in">WEDDING EVENT</div>
           <div class="ev-block fade-in">
             <div class="ev-name">AKAD NIKAH</div>
             <div class="ev-detail" id="ev-akad"></div>
-            <a id="ev-akad-map" href="#" target="_blank" class="btn-loc">📍 Lokasi Acara</a>
+            <a id="ev-akad-map" href="#" target="_blank" class="btn-loc"
+              >📍 Lokasi Acara</a
+            >
           </div>
           <hr class="ev-divider" />
           <div class="ev-block right fade-in">
             <div class="ev-name">RESEPSI</div>
             <div class="ev-detail" id="ev-resepsi"></div>
-            <a id="ev-resepsi-map" href="#" target="_blank" class="btn-loc">📍 Lokasi Acara</a>
+            <a id="ev-resepsi-map" href="#" target="_blank" class="btn-loc"
+              >📍 Lokasi Acara</a
+            >
           </div>
         </div>
       </section>
@@ -146,14 +178,17 @@
           <p class="gift-desc fade-in">
             Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.
             Namun jika memberi adalah ungkapan tanda kasih Anda, kami akan
-            senang hati menerimanya yang tentu akan semakin melengkapi kebahagiaan kami.
+            senang hati menerimanya yang tentu akan semakin melengkapi
+            kebahagiaan kami.
           </p>
           <div class="gift-addr fade-in">
             <span class="gicon">🎁</span>
             <div class="gname" id="gift-name"></div>
             <div class="gstreet" id="gift-street"></div>
           </div>
-          <button class="btn-rek fade-in" id="btn-rek" onclick="toggleRek()">🔍 Lihat Rekening</button>
+          <button class="btn-rek fade-in" id="btn-rek" onclick="toggleRek()">
+            🔍 Lihat Rekening
+          </button>
           <div class="rek-cards" id="rek-cards"></div>
         </div>
       </section>
@@ -170,23 +205,40 @@
           </p>
           <div class="fg fade-in">
             <label class="flabel">Nama Tamu <span>*</span></label>
-            <input type="text" class="finput" placeholder="Isi Nama Lengkap Anda" />
+            <input
+              type="text"
+              class="finput"
+              placeholder="Isi Nama Lengkap Anda"
+            />
           </div>
           <div class="fg fade-in">
             <label class="flabel">Apakah anda akan hadir? <span>*</span></label>
             <div class="radio-grp">
-              <label class="radio-lbl"><input type="radio" name="hadir" value="ya" /> Ya</label>
-              <label class="radio-lbl"><input type="radio" name="hadir" value="tidak" /> Tidak</label>
+              <label class="radio-lbl"
+                ><input type="radio" name="hadir" value="ya" /> Ya</label
+              >
+              <label class="radio-lbl"
+                ><input type="radio" name="hadir" value="tidak" /> Tidak</label
+              >
             </div>
           </div>
           <div class="fg fade-in">
-            <label class="flabel">Jumlah Tamu Yang Akan Hadir <span>*</span></label>
+            <label class="flabel"
+              >Jumlah Tamu Yang Akan Hadir <span>*</span></label
+            >
             <select class="fselect">
-              <option>0</option><option>1</option><option>2</option>
-              <option>3</option><option>4</option><option>5+</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5+</option>
             </select>
           </div>
-          <button class="btn-submit fade-in" onclick="showToast('Konfirmasi kehadiran terkirim! 🎉')">
+          <button
+            class="btn-submit fade-in"
+            onclick="showToast('Konfirmasi kehadiran terkirim! 🎉')"
+          >
             ✉ Kirim Konfirmasi
           </button>
         </div>
@@ -199,25 +251,37 @@
         <div class="sec-body">
           <div class="sec-title fade-in">WEDDING WISH</div>
           <p class="wish-desc fade-in">
-            Tuliskan harapan dan doa terbaik Anda untuk kedua mempelai melalui kolom berikut:
+            Tuliskan harapan dan doa terbaik Anda untuk kedua mempelai melalui
+            kolom berikut:
           </p>
           <div class="fg fade-in">
             <label class="flabel">Nama <span>*</span></label>
-            <input type="text" class="finput" id="wname" placeholder="Nama Anda" />
+            <input
+              type="text"
+              class="finput"
+              id="wname"
+              placeholder="Nama Anda"
+            />
           </div>
           <div class="fg fade-in">
             <label class="flabel">Ucapan &amp; Doa <span>*</span></label>
-            <textarea class="wish-ta" id="wtext" placeholder="Tulis ucapan Anda..."></textarea>
+            <textarea
+              class="wish-ta"
+              id="wtext"
+              placeholder="Tulis ucapan Anda..."
+            ></textarea>
           </div>
-          <button class="btn-submit fade-in" onclick="submitWish()">💌 Kirim Ucapan</button>
+          <button class="btn-submit fade-in" onclick="submitWish()">
+            💌 Kirim Ucapan
+          </button>
           <div class="wish-list" id="wish-list">
             <div class="wish-item">
-              <div class="wish-sender">Budi Santoso</div>
-              <div class="wish-text">"Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Bahagia selalu! 🌿"</div>
+              <div class="wish-sender"></div>
+              <div class="wish-text"></div>
             </div>
             <div class="wish-item">
-              <div class="wish-sender">Siti Rahma</div>
-              <div class="wish-text">"Selamat menempuh hidup baru, semoga langgeng sampai kakek nenek. Aamiin 💚"</div>
+              <div class="wish-sender"></div>
+              <div class="wish-text"></div>
             </div>
           </div>
         </div>
@@ -229,11 +293,13 @@
         <div class="fsub" id="footer-date"></div>
         <div class="fcredit">Made with ❤ · Wedding Invitation</div>
       </div>
-
-    </div><!-- /right-content -->
+    </div>
+    <!-- /right-content -->
 
     <div class="toast" id="toast"></div>
-    <button id="music-btn" onclick="toggleMusic()" title="Toggle music">♪</button>
+    <button id="music-btn" onclick="toggleMusic()" title="Toggle music">
+      ♪
+    </button>
 
     <!-- Config dulu, baru app logic -->
     <script src="config/config.js"></script>
