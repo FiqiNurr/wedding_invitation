@@ -42,10 +42,8 @@ const CONFIG = {
     cover:
       "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=85",
     ayat: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800&q=80",
-    bride:
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7e?w=800&q=80",
-    groom:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    bride: "assets/images/bride.jpg",
+    groom: "assets/images/groom.jpg",
     event:
       "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
   },
