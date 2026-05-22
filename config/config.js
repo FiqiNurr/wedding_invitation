@@ -9,7 +9,7 @@ const CONFIG = {
   couple: {
     bride: {
       firstName: "Hesta",
-      fullName: "Hesta Galuh Listantina S.Psi",
+      fullName: "Hesta Galuh Listantina",
       parentDesc: "Putri Pertama dari",
       parents: "Bapak Listiyono & Ibu Purwanti",
       instagram: "https://instagram.com/hestagaluh",
