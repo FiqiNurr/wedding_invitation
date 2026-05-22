@@ -8,8 +8,8 @@ const CONFIG = {
   // ── PASANGAN ──────────────────────────────────────────────
   couple: {
     bride: {
-      firstName: "Galuh",
-      fullName: "Hesta Galuh Listantina",
+      firstName: "Hesta",
+      fullName: "Hesta Galuh Listantina S.Psi",
       parentDesc: "Putri Pertama dari",
       parents: "Bapak Listiyono & Ibu Purwanti",
       instagram: "https://instagram.com/hestagaluh",
