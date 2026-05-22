@@ -41,7 +41,7 @@ const CONFIG = {
   images: {
     cover:
       "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=85",
-    ayat: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800&q=80",
+    ayat: "assets/images/ayat.jpg",
     bride: "assets/images/bride.jpg",
     groom: "assets/images/groom.jpg",
     event:
