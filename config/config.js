@@ -8,7 +8,7 @@ const CONFIG = {
   // ── PASANGAN ──────────────────────────────────────────────
   couple: {
     bride: {
-      firstName: "Hesta",
+      firstName: "Galuh",
       fullName: "Hesta Galuh Listantina",
       parentDesc: "Putri Pertama dari",
       parents: "Bapak Listiyono & Ibu Purwanti",
