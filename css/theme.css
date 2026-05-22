@@ -1,0 +1,115 @@
+/*
+ * ============================================================
+ *  THEME.CSS  –  Ubah file ini untuk mengganti tampilan
+ * ============================================================
+ *
+ *  Semua variabel di sini mengontrol warna, font, dan
+ *  overlay seluruh halaman. Kamu tidak perlu menyentuh
+ *  file lain hanya untuk ganti tema.
+ *
+ * ============================================================
+ *
+ *  TEMA BAWAAN: Sage Green (hijau sage elegan)
+ *  Tema lain tersedia di bawah — uncomment untuk mengaktifkan.
+ *
+ * ============================================================
+ */
+
+:root {
+  /* ── Warna utama ── */
+  --color-primary:      #6b7c6e;   /* sage – warna tombol, aksen */
+  --color-primary-dark: #4a5c4e;   /* sage gelap – tombol hover, countdown box */
+  --color-primary-light:#8fa893;   /* sage muda – teks nama tamu di panel kiri */
+
+  /* ── Background ── */
+  --color-bg:           #1e271f;   /* background halaman & panel kanan */
+  --color-bg-footer:    #1e2a1f;   /* background footer */
+
+  /* ── Overlay di atas foto ── */
+  --overlay-default:    rgba(60, 78, 62, 0.58);   /* overlay section umum */
+  --overlay-ayat:       rgba(55, 75, 58, 0.62);
+  --overlay-event:      rgba(55, 75, 58, 0.68);
+  --overlay-rsvp:       rgba(45, 65, 48, 0.72);
+  --overlay-wish:       rgba(38, 58, 40, 0.75);
+  /* overlay bride/groom pakai gradient, lihat style.css bagian .person-sec */
+
+  /* ── Warna aksen tombol & label ── */
+  --color-btn-open-bg:  rgba(205, 190, 155, 0.85); /* tombol "Buka Undangan" */
+  --color-btn-open-txt: #3a3020;
+  --color-form-accent:  #e8c4a0;   /* warna bintang (*) wajib di form */
+
+  /* ── Font ── */
+  /* Ganti nama font di sini, lalu sesuaikan link Google Fonts di index.html */
+  --font-display: "Cormorant Garamond", serif;  /* judul, nama, ayat */
+  --font-body:    "Jost", sans-serif;           /* teks umum, tombol, form */
+}
+
+
+/* ============================================================
+ *  TEMA ALTERNATIF
+ *  Cara pakai: hapus /* di depan nama tema yang diinginkan,
+ *  dan tambahkan /* di depan tema yang sedang aktif di atas.
+ * ============================================================ */
+
+/*
+ * ── TEMA: Dusty Rose (merah muda elegan) ──────────────────
+:root {
+  --color-primary:       #b07080;
+  --color-primary-dark:  #8c5060;
+  --color-primary-light: #c99aaa;
+  --color-bg:            #2a1e20;
+  --color-bg-footer:     #2a1e22;
+  --overlay-default:     rgba(90, 50, 55, 0.58);
+  --overlay-ayat:        rgba(80, 45, 50, 0.62);
+  --overlay-event:       rgba(85, 48, 52, 0.68);
+  --overlay-rsvp:        rgba(70, 40, 44, 0.72);
+  --overlay-wish:        rgba(60, 35, 38, 0.75);
+  --color-btn-open-bg:   rgba(210, 175, 175, 0.85);
+  --color-btn-open-txt:  #3a2020;
+  --color-form-accent:   #e8c0b0;
+  --font-display: "Cormorant Garamond", serif;
+  --font-body:    "Jost", sans-serif;
+}
+*/
+
+/*
+ * ── TEMA: Midnight Navy (biru gelap mewah) ────────────────
+:root {
+  --color-primary:       #5a6e8c;
+  --color-primary-dark:  #3a4e6c;
+  --color-primary-light: #8aa0ba;
+  --color-bg:            #0f1a2b;
+  --color-bg-footer:     #0c1825;
+  --overlay-default:     rgba(20, 40, 70, 0.60);
+  --overlay-ayat:        rgba(18, 35, 65, 0.65);
+  --overlay-event:       rgba(20, 40, 70, 0.68);
+  --overlay-rsvp:        rgba(15, 35, 60, 0.72);
+  --overlay-wish:        rgba(12, 30, 55, 0.75);
+  --color-btn-open-bg:   rgba(160, 175, 210, 0.85);
+  --color-btn-open-txt:  #0f1a2b;
+  --color-form-accent:   #a0b8e0;
+  --font-display: "Playfair Display", serif;
+  --font-body:    "Inter", sans-serif;
+}
+*/
+
+/*
+ * ── TEMA: Warm Ivory (krem hangat klasik) ─────────────────
+:root {
+  --color-primary:       #8c7355;
+  --color-primary-dark:  #6a5238;
+  --color-primary-light: #b09878;
+  --color-bg:            #1c1710;
+  --color-bg-footer:     #181410;
+  --overlay-default:     rgba(60, 48, 30, 0.60);
+  --overlay-ayat:        rgba(55, 44, 28, 0.65);
+  --overlay-event:       rgba(58, 46, 28, 0.68);
+  --overlay-rsvp:        rgba(50, 40, 24, 0.72);
+  --overlay-wish:        rgba(44, 35, 20, 0.75);
+  --color-btn-open-bg:   rgba(210, 195, 160, 0.85);
+  --color-btn-open-txt:  #3a2e18;
+  --color-form-accent:   #e8c88a;
+  --font-display: "EB Garamond", serif;
+  --font-body:    "Lato", sans-serif;
+}
+*/
