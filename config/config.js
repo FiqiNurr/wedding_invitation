@@ -8,7 +8,7 @@ const CONFIG = {
   // ── PASANGAN ──────────────────────────────────────────────
   couple: {
     bride: {
-      firstName: "Hesta",
+      firstName: "Galuh",
       fullName: "Hesta Galuh Listantina",
       parentDesc: "Putri Pertama dari",
       parents: "Bapak Listiyono & Ibu Purwanti",
@@ -17,7 +17,7 @@ const CONFIG = {
     groom: {
       firstName: "Fiqi",
       fullName: "Fiqi Nur Rohman",
-      parentDesc: "Putra Pertama dari",
+      parentDesc: "Putra Kedua dari",
       parents: "Bapak Muhlisin & Ibu Sri Haryati",
       instagram: "https://instagram.com/fiqinur76",
     },

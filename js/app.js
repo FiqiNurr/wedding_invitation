@@ -212,23 +212,54 @@ function copyTxt(text, btn) {
   });
 }
 
-// ── Kirim ucapan ──
-function submitWish() {
+// ── Ucapan (tersimpan permanen) ──
+const WISH_KEY = "wedding_wishes_v1";
+
+async function loadWishes() {
+  try {
+    const res = await window.storage.get(WISH_KEY, true);
+    const wishes = res ? JSON.parse(res.value) : [];
+    renderWishes(wishes);
+  } catch (e) {
+    console.warn("Gagal memuat ucapan:", e);
+  }
+}
+
+function renderWishes(wishes) {
+  const list = document.getElementById("wish-list");
+  if (!list) return;
+  list.innerHTML = wishes
+    .map(
+      (w) => `<div class="wish-item">
+        <div class="wish-sender">${esc(w.name)}</div>
+        <div class="wish-text">"${esc(w.text)}"</div>
+      </div>`,
+    )
+    .join("");
+}
+
+async function submitWish() {
   const name = document.getElementById("wname").value.trim();
   const text = document.getElementById("wtext").value.trim();
   if (!name || !text) {
     showToast("Lengkapi nama dan ucapan 🌿");
     return;
   }
-  const item = document.createElement("div");
-  item.className = "wish-item";
-  item.innerHTML = `<div class="wish-sender">${esc(name)}</div>
-                    <div class="wish-text">"${esc(text)}"</div>`;
-  document.getElementById("wish-list").prepend(item);
-  document.getElementById("wname").value = "";
-  document.getElementById("wtext").value = "";
-  showToast("Ucapan terkirim! 💌");
+  try {
+    const res = await window.storage.get(WISH_KEY, true);
+    const existing = res ? JSON.parse(res.value) : [];
+    const updated = [{ name, text, ts: Date.now() }, ...existing];
+    await window.storage.set(WISH_KEY, JSON.stringify(updated), true);
+    renderWishes(updated);
+    document.getElementById("wname").value = "";
+    document.getElementById("wtext").value = "";
+    showToast("Ucapan terkirim! 💌");
+  } catch (e) {
+    console.error("Gagal menyimpan ucapan:", e);
+    showToast("Gagal menyimpan, coba lagi 🌿");
+  }
 }
+
 function esc(t) {
   return t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -299,5 +330,6 @@ window.addEventListener("DOMContentLoaded", () => {
   applyConfig();
   applyGuestName();
   checkDesktop();
+  loadWishes();
 });
 window.addEventListener("resize", checkDesktop);
