@@ -27,8 +27,8 @@ const CONFIG = {
   event: {
     akadDate: "2026-08-02T08:00:00", // format: YYYY-MM-DDTHH:MM:SS
     resepsiDate: "2026-08-02T10:00:00",
-    akadTime: "08.00 WIB – Selesai",
-    resepsiTime: "10.00 – 14.00 WIB",
+    akadTime: "08.00 WIB – 10.00 WIB",
+    resepsiTime: "12.00 – Selesai WIB",
     venue: "Rumah Mempelai Wanita",
     venueAddress:
       "Jl Argopratolo 03/08 Gandu, Kel. Ledok, Kec. Argomulyo, Kota Salatiga",
