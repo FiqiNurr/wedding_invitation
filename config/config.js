@@ -39,8 +39,8 @@ const CONFIG = {
   // Simpan foto di assets/images/ lalu ganti path di bawah.
   // Bisa juga pakai URL eksternal.
   images: {
-    cover:
-      "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=85",
+    cover: "assets/images/cover.jpg",
+      // "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=900&q=85",
     ayat: "assets/images/ayat.jpg",
     bride: "assets/images/bride.jpg",
     groom: "assets/images/groom.jpg",
