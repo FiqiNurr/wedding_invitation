@@ -127,7 +127,7 @@ body {
   justify-content: flex-end;
   padding-bottom: 64px;
   background-size: cover;
-  background-position: center;
+  background-position: 40% center;
   transition:
     opacity 0.8s,
     transform 0.8s;
