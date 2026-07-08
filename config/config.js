@@ -52,7 +52,7 @@ const CONFIG = {
   // Simpan file di assets/audio/ lalu isi path-nya.
   // Kosongkan src ("") untuk pakai nada bawaan.
   music: {
-    src: "", // contoh: "assets/audio/lagu.mp3"
+    src: "assets/audio/lagu.mp3", // contoh: "assets/audio/lagu.mp3"
     volume: 0.4,
     loop: true,
   },
