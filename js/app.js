@@ -78,7 +78,7 @@ function applyConfig() {
   });
 
   // ── Gift ──
-  setBg("bg-gift", img.event); // ← ganti img.gift jika punya foto berbeda
+  setBg("bg-gift", img.gift); // ← ganti img.gift jika punya foto berbeda
   setText("gift-name", "Kirim Hadiah: " + CONFIG.giftAddress.name);
   setText(
     "gift-street",
@@ -142,6 +142,7 @@ function openInvitation() {
   document.getElementById("right-content").classList.add("visible");
   startCountdown();
   setTimeout(initScroll, 300);
+  if (!playing) toggleMusic();
 }
 
 // ── Desktop: tampilkan langsung ──

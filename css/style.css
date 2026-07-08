@@ -428,6 +428,20 @@ section,
   background: var(--overlay-event);
 }
 
+/* ── Ukuran gambar EVENT — Desktop ── */
+#event .sec-bg {
+  background-size: cover;
+  background-position: center;
+}
+
+/* ── Ukuran gambar EVENT — Mobile ── */
+@media (max-width: 768px) {
+  #event .sec-bg {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .countdown-bar {
   display: flex;
   gap: 10px;

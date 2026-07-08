@@ -44,8 +44,10 @@ const CONFIG = {
     ayat: "assets/images/ayat.jpg",
     bride: "assets/images/bride.jpg",
     groom: "assets/images/groom.jpg",
-    event:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+    event: "assets/images/event.jpg",
+      // "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
+    gift: "assets/images/gift.jpg",
+      // "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80",
   },
 
   // ── MUSIK ─────────────────────────────────────────────────
